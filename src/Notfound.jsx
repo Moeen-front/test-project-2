@@ -5,7 +5,7 @@ const Notfound = () => {
     <div>
         <img src={aks} alt="" style={{width:"100%"}} />
 
-        <Link to="/">
+        <Link to="/home">
             برگشت به صفحه اصلی
         </Link>
     </div>

@@ -1,21 +1,65 @@
-body{
+@font-face {
+    font-family: iran;
+    src: url(/fonts/A-Iranian-Sans/Iranian\ Sans.ttf);
+}
+@font-face {
+    font-family: lale;
+    src: url(/fonts/Lalezar-Font/OTF/Lalezar-Regular.otf)
+    ,url(/fonts/Lalezar-Font/TTF/Lalezar-Regular.ttf);
+}
+@font-face {
+    font-family: nazanin;
+    src: url(/fonts/Far_Nazanin/Far_Nazanin.ttf);
+}
+@font-face {
+    font-family: nastaligh;
+    src: url(/fonts/IranNastaliq&Help-fontyab.com/IranNastaliq.ttf)
+    ,url(/fonts/IranNastaliq&Help-fontyab.com/راهنمای\ استفاده\ از\ فونت\ ایران\ نستعلیق.pdf);
+}
+body {
     direction: rtl;
+    background-color: rgb(26, 236, 145);
 }
-.Navbar{
+
+.Navbar {
     width: 100%;
+    padding: 1rem;
+    position: sticky;
     top: 0;
+    right: 0;
+    background-color: rgb(13, 111, 69);
     display: flex;
-    justify-content: space-around;
-    background-color: rgb(0, 214, 214);
+    justify-content: flex-start;
+
 
 }
-.Navbar a {
 
-    width: 100%;
+.Navbar a {
+    font-family: lale;
+    font-size: large;
+    width: 100px;;
     height: 50px;
-    font-weight: bold;
-    color: rgb(208, 15, 15);
+    /* font-weight: bold; */
+    color: rgb(255, 255, 255);
     text-decoration: none;
     padding-right: 50px;
     padding-top: 30px;
+}
+
+li{
+    font-family: nazanin;
+    font-size: larger;
+    font-weight: bolder;
+
+}
+
+input {
+    height: 30px;
+}
+
+.home-text h1{
+    font-family: nastaligh;
+    text-align: center;
+    font-size: 60px;
+    color:  rgb(9, 72, 45);;
 }
